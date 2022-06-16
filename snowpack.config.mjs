@@ -24,4 +24,7 @@ export default {
   buildOptions: {
     /* ... */
   },
+  env: {
+    API_URL: 'mysecretapi',
+  },
 };
