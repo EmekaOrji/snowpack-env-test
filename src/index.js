@@ -1,3 +1,4 @@
+import.meta.hot;
 /**
  * This file is just a silly example to show everything working in the browser.
  * When you're ready to start on your site, clear the file. Happy hacking!
@@ -10,4 +11,4 @@ confetti.create(document.getElementById('canvas'), {
   useWorker: true,
 })({ particleCount: 200, spread: 200 });
 
-console.log(__SNOWPACK_ENV__.SNOWPACK_PUBLIC_ENABLE_FEATURE);
+console.log(import.meta.env.API_URL);
