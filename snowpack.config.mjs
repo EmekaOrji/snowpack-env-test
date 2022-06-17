@@ -4,9 +4,7 @@ export default {
     public: { url: '/', static: true },
     src: { url: '/dist' },
   },
-  plugins: [
-    /* ... */
-  ],
+  plugins: ['@snowpack/plugin-webpack', '@snowpack/plugin-optimize'],
   routes: [
     /* Enable an SPA Fallback in development: */
     // {"match": "routes", "src": ".*", "dest": "/index.html"},
@@ -24,7 +22,7 @@ export default {
   buildOptions: {
     /* ... */
   },
-  env: {
-    API_URL: 'mysecretapi',
-  },
+  // env: {
+  //   API_URL: 'api.google.com',
+  // },
 };

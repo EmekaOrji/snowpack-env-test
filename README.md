@@ -1,6 +1,6 @@
 # snowpack-env-test
 
-Hot module reload test
+## Hot module reload test
 
 #
 

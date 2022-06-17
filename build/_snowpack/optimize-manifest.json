@@ -1,0 +1,19 @@
+{
+  "imports": {
+    "/index.html": {
+      "entry": [
+        "/js/dist/index.0be7b58a3ed1f794f08a.js",
+        "/js/webpack-runtime.7a9bfead2411376c2583.js"
+      ],
+      "css": [
+        "/favicon.ico",
+        "/index.css"
+      ],
+      "js": [
+        "/js/dist/index.0be7b58a3ed1f794f08a.js",
+        "/js/webpack-runtime.7a9bfead2411376c2583.js"
+      ]
+    }
+  },
+  "generated": {}
+}

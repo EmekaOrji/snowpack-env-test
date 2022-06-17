@@ -10,4 +10,4 @@ confetti.create(document.getElementById('canvas'), {
   useWorker: true,
 })({ particleCount: 200, spread: 200 });
 
-console.log(__SNOWPACK_ENV__.API_URL);
+console.log(__SNOWPACK_ENV__.SNOWPACK_PUBLIC_ENABLE_FEATURE);
